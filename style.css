@@ -1,0 +1,160 @@
+.site-header{
+height:200px;
+background-image:url('header.jpg');
+background-repeat: no-repeat;
+ background-size: 100% 200px;
+ margin: 0 0;
+
+}
+
+.s1 , .s2{
+height:50px;
+background-color:aqua;
+}
+
+.site-footer{
+height:300px;
+background-color:orangered;
+text-align:center;
+}
+
+body{
+text-align:center;
+ font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+.gore img {
+float:right;
+}
+.gore h1{
+
+text-align:center;
+color:orangered;
+}
+
+.tddiv{
+position:relative;
+left:125px;
+display:block;
+height:80px;
+width:300px;
+text-align:center;
+margin:20px 20px;
+border-radius:15px;
+
+background: -webkit-linear-gradient(#D6D6D6, #F5F5F5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#D6D6D6, #F5F5F5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#D6D6D6, #F5F5F5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#D6D6D6, #F5F5F5); /* Standard syntax (must be last) */
+}
+
+a:link{
+text-decoration:none;
+color:#000000;
+}
+
+a:visited{
+color:#000000;
+}
+
+
+.tddiv:hover{
+    background: -webkit-linear-gradient(#FFCC99, #FFDBB8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFCC99, #FFDBB8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFCC99, #FFDBB8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFCC99, #FFDBB8); /* Standard syntax (must be last) */
+	color:#000000;
+}
+
+
+
+.site-footer {
+	height:100%;
+	padding: 10px;
+	 background: #333;
+}
+
+.site-footer ul {
+  padding: 0;
+}
+
+.site-footer strong{
+font-size:20px;
+color:#FBEC04;
+}
+
+.site-footer p{
+color:#FFF;
+font-size:17px;
+}
+.icon-facebook-circled{
+font-size:50px;
+color:#FFF;
+}
+
+.icon-twitter-circled{
+font-size:50px;
+color:#FFF;
+}
+
+.icon-youtube{
+font-size:50px;
+color:#FFF;
+}
+
+.pratiti li{
+display: inline-block;
+}
+
+#bok{
+position:relative;
+top:15px;
+}
+
+.menu img{
+width:50px;
+height:30px;
+float:left;
+}
+
+.menu{
+text-align:left;
+}
+
+.menu:hover{
+color:#FFCC99;
+}
+
+.menu strong{
+position:relative;
+top:5px;
+}
+
+.opis{
+text-align:left;
+
+}
+
+.opis strong{
+color:#FFCC99;
+
+}
+
+.opis img{
+width:300px;
+height:200px;
+
+}
+
+#pica{
+
+display:none;
+text-align:left;
+}
+
+#pice, #hrana{
+text-decoration:underline;
+}
+#pice:hover, #hrana:hover{
+cursor: pointer;
+}
